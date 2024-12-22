@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<script src="includehtml.js"></script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,30 +10,34 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100;400;700&family=Cutive+Mono&family=Roboto+Mono:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header class="header">
-        <div class = "right-section">
-            <a href="index.html" class="nav-link">Home</a>
-            <a href="pages/about.html" class="nav-link">About</a>
-            <a href="pages/projects.html" class="nav-link">Projects</a>
-            <a href="pages/contact.html" class="nav-link">Contact</a>
-        </div>
-    </header>
+    <div include-html="pages/navbar.html"></div>
     <main>
         <section>
-
-            <p class="title">
-                Hi, my name is Leah Kerry
-            </p>
-            <p class="bio">
-                I am a computer science and art student studying at Tufts University in Boston. My art and technical creations are inspired by organic forms in nature. 
-            </p>
-            <video width="620" autoplay loop>
-                <source src="images/td-simulation.mp4" type="video/mp4">
-                Your browser does not support the video tag
-            </video>
+            <div class="title-box">
+                <video width="400" height="300" class="image" autoplay loop>
+                    <source src="images/td-simulation.mp4" type="video/mp4">
+                    Your browser does not support the video tag
+                </video>
+                <p class="title" id="leah">
+                    Leah Kerry 
+                </p>
+                <p class="bio" width="620">
+                    I am a computer science and art student studying at Tufts University in Boston. I love using mediums that combine visual imagination with code. 
+                </p>
+                
+                <div class="socials">
+                    <a href="https://www.linkedin.com/in/leah-kerry-993997101/" target="_blank" class="fa fa-linkedin"></a>
+                    <a href="mailto:leahkerry@gmail.com" target="_blank" class="fa fa-envelope"></a>
+                    <a href="https://www.youtube.com/@linfinity9127" target="_blank" class="fa fa-youtube"></a>
+                </div>
+            </div>
+            
         </section>
     </main>
+
+<script>includeHTML();</script>
 </body>
 </html>
