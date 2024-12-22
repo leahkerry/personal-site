@@ -4,6 +4,26 @@ body {
     margin-left:40px;
 }
 
+button {
+    background-color: rgb(91, 66, 51); /* Green */
+    border: none;
+    color:  rgb(231, 219, 204);
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    transition-duration: 0.2s;
+    font-family: Azeret Mono;
+    border-radius: 15px;
+  }
+button:hover {
+    background-color: rgb(31, 20, 13); /* Green */
+    color: rgb(231, 219, 204);
+    cursor: pointer;
+    padding: 15px 45px;
+}
+
 p {
     font-family: Azeret Mono;
     margin-top:0;
