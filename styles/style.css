@@ -8,15 +8,17 @@ p {
     font-family: Azeret Mono;
     margin-top:0;
     margin-bottom:0;
-    
+    color:rgb(31, 20, 13);
+    text-align: center;
 }
 
 .title{
-    margin-top:100px;
-    margin-bottom: 50px;
+    margin-top:150px;
+    margin-bottom: 40px;
     font-size:60px;
     display:flex;
     justify-content: center;
+    font-family: Azeret Mono;
 }
 
 .bio{
@@ -24,6 +26,7 @@ p {
     font-size:20px;
     line-height: 40px;
     margin-bottom:30px;
+    width:50%;
 }
 
 .video {
@@ -32,10 +35,58 @@ p {
     align-items: center;
     flex-direction:column;
     gap: 20px;
-    margin: 100px;
-
+    margin: 20px 100px 70px 100px;
+    padding: 20px;
 }
 
 .heading {
     font-size: 30px;
+    margin:20px;
+}
+
+.image {
+    object-fit: cover;
+}
+
+.gallery {
+    border-radius: 3px;
+    display:flex;
+    gap: 10px;
+}
+
+.title-box {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    margin-top: 100px;
+}
+
+.fa:hover {
+    opacity: 0.8;
+}
+
+.fa-linkedin {
+    /* background: #007bb5; */
+    color:rgb(31, 20, 13);
+}
+
+
+.fa {
+    padding: 0px;
+    font-size: 40px;
+    width: 50px;
+    text-decoration: none;
+    margin: 5px 40px;
+    color:rgb(31, 20, 13);
+    /* border:5px solid rgb(31, 20, 13); */
+    /* border-radius: 500px; */
+}
+
+.socials {
+    display:flex;
+}
+
+#leah {
+    margin-top: 50px;
 }
