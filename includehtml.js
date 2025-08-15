@@ -25,3 +25,14 @@ function includeHTML() {
     }
     }
 };
+
+function enableNavbarToggle() {
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.right-section');
+    if (toggle && nav) {
+        toggle.addEventListener('click', function() {
+            nav.classList.toggle('nav-open');
+            toggle.classList.toggle('open');
+        });
+    }
+}

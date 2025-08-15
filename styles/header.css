@@ -1,3 +1,5 @@
+
+
 .header {
   background-color: rgb(212, 187, 180);
   display: flex;
@@ -6,7 +8,7 @@
   top: 0;
   right: 0;
   left: 0;
-  border-bottom: 1px solid rgb(181, 190, 204) ;
+  border-bottom: 1px solid rgb(181, 190, 204);
   z-index: 100;
   align-items: center;
   justify-content: center;
@@ -15,14 +17,11 @@
 .right-section {
   right: 0;
   display: flex;
-  /* background-color: pink; */
   align-items: center;
   height: 100%;
-  gap:30px;
+  gap: 30px;
   justify-content: center;
   margin: 1dvh;
-  /* position: relative; */
-  
 }
 
 .nav-link {
@@ -31,7 +30,108 @@
   text-decoration: none;
   font-size: 20px;
   font-family: Azeret Mono;
-  transition: all 0.9s ease-out;
+  transition: all 0.3s;
 }
 
+.nav-link:hover {
+  color: rgb(91, 66, 51);
+  text-decoration: underline;
+}
 
+/* Hamburger styles */
+.nav-toggle {
+  all: unset;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  z-index: 200;
+  padding: 1rem 1.5rem;
+}
+
+.nav-toggle .bar {
+  display: block;
+  width: 28px;
+  height: 3px;
+  background: #3a2d1e;
+  margin: 4px 0;
+  border-radius: 2px;
+  transition: all 0.3s;
+}
+
+.nav-toggle.open .bar:nth-child(1) {
+  transform: translateY(11px) rotate(45deg);
+}
+.nav-toggle.open .bar:nth-child(2) {
+  opacity: 0;
+}
+.nav-toggle.open .bar:nth-child(3) {
+  transform: translateY(-11px) rotate(-45deg);
+}
+
+/* Responsive navbar */
+@media (max-width: 900px) {
+  .header {
+    height: auto;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* padding: 0.5rem 0; */
+  }
+  .nav-toggle {
+    display: flex;
+  }
+  .right-section {
+    position: absolute;
+    top: 125px;
+    right: 0;
+    background: rgb(212, 187, 180);
+    flex-direction: column;
+    align-items: stretch;
+    width: 100vw;
+    max-width: 300px;
+    /* box-shadow: 0 2px 8px rgba(0,0,0,0.08); */
+    display: none;
+    z-index: 150;
+    padding: 0;
+    gap: 0px;
+  }
+  .right-section.nav-open {
+    display: flex;
+  }
+  .nav-link {
+    margin: 0;
+    font-size: 1.1rem;
+    width: 100%;
+    /* display: block; */
+    background: rgb(212, 187, 180);
+    padding: 1rem 1.5rem;
+    /* box-sizing: border-box; */
+    /* border-bottom: 1px solid #e5d5cc; */
+    border-radius: 0; /* Remove if you want sharp corners */
+    /* Remove text-align: right; */
+  }
+  .nav-link:last-child {
+    /* border-bottom: none; */
+  }
+}
+
+/* Always show nav on desktop */
+@media (min-width: 901px) {
+  .right-section {
+    display: flex !important;
+    position: static;
+    flex-direction: row;
+    align-items: center;
+    background: none;
+    box-shadow: none;
+    width: auto;
+    padding: 0;
+    margin: 1dvh;
+  }
+  .nav-toggle {
+    display: none !important;
+  }
+}
