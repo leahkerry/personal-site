@@ -1,7 +1,7 @@
 
 
 .header {
-  background-color: rgb(212, 187, 180);
+  background-color: rgb(185, 197, 217);
   display: flex;
   height: 75px;
   position: fixed;
@@ -34,8 +34,9 @@
 }
 
 .nav-link:hover {
-  color: rgb(91, 66, 51);
-  text-decoration: underline;
+  color: rgb(89, 118, 197);
+  /* text-decoration: underline; */
+  padding: 10px;
 }
 
 /* Hamburger styles */
