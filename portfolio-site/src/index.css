@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* small helper styles */
+html, body, #root { height: 100%; }
+body { @apply bg-slate-200 text-slate-800 antialiased; }
+.container { @apply max-w-4xl mx-auto px-6; }

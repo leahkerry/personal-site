@@ -1,0 +1,28 @@
+import React from 'react'
+import type { Project } from '../types/project'
+
+
+export default function ProjectCard({ p }: { p: Project }){
+return (
+    <article className="bg-slate-300 border rounded-lg p-4">
+    <h3 className="text-lg font-semibold">{p.title}</h3>
+    {p.image && <img src={p.image} className="w-full h-96 object-cover rounded mt-2"/>}
+    {p.video && <video src={p.video} muted controls className="w-full h-96 object-cover rounded mt-2"/>}
+    {p.gallery && 
+        <div className="mt-3 text-xs grid grid-flow-col grid-rows-1 items-stretch gap-2">
+            {p.gallery.map(t => (
+            <img src={t} className="h-96 object-cover rounded mt-2"/>
+            ))}
+        </div>}
+    <p className="mt-2 text-sm">{p.description}</p>
+    <div className="mt-3 text-xs flex flex-wrap gap-2">
+        {p.technologies.map(t => (
+        <span key={t} className="px-2 py-1 bg-slate-100 rounded">{t}</span>
+        ))}
+    </div>
+    <div className="mt-3">
+        {p.repo && <a href={p.repo} target="_blank" rel="noopener noreferrer" className="text-sm underline hover:text-blue-600">Source</a>}
+    </div>
+    </article>
+    )
+}
