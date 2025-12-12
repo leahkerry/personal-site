@@ -5,7 +5,7 @@ export const artworks: Project[] = [
 {
 id: 'fairylanterns',
 title: 'Fairy Lanterns',
-gallery: ['src/assets/artwork/lanterns.JPEG', 'src/assets/artwork/crabclaws2_wpearl.jpg', 'src/assets/artwork/Lanternvideo.mov'],
+gallery: ['src/assets/artwork/lanterns.JPEG', 'src/assets/artwork/Lanternfire.png'],
 description: 'Handmade miniatures using brass, copper, liver of sulfur patina. Lanterns function as earrings or real lanterns.',
 technologies: [],
 },

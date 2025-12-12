@@ -13,12 +13,12 @@ element.scrollIntoView({ behavior: 'smooth' });
 return (
 <header className="fixed w-full bg-primary border-b">
 <div className="container flex items-center justify-between h-16">
-    <a href="#home" className="font-semibold text-lg" onClick={(e) => handleScroll(e, 'home')}>Leah Kerry</a>
-    <nav className="space-x-4 text-lg">
+    <a href="#home" className="hover:tracking-widest text-slate-500 font-custom text-xl   navlink" onClick={(e) => handleScroll(e, 'home')}>Leah Kerry</a>
+    <nav className="space-x-8 text-xl">
         {/* <a href="#about"    className="hover:underline" onClick={(e) => handleScroll(e, 'about')}>About</a> */}
-        <a href="#software" className="hover:underline" onClick={(e) => handleScroll(e, 'software')}>Software</a>
-        <a href="#artsoftware" className="hover:underline" onClick={(e) => handleScroll(e, 'artsoftware')}>Tech + Art</a>
-        <a href="#artwork"  className="hover:underline" onClick={(e) => handleScroll(e, 'artwork')}>Artwork</a>
+        <a href="#software" className="hover:tracking-widest hover:font-semibold navlink" onClick={(e) => handleScroll(e, 'software')}>Software</a>
+        <a href="#artsoftware" className="hover:tracking-widest hover:font-semibold navlink"  onClick={(e) => handleScroll(e, 'artsoftware')}>Tech + Art</a>
+        <a href="#artwork"  className="hover:tracking-widest hover:font-semibold navlink"  onClick={(e) => handleScroll(e, 'artwork')}>Artwork</a>
     </nav>
 </div>
 </header>

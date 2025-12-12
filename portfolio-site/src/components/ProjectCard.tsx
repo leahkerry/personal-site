@@ -7,7 +7,7 @@ return (
     <article className="bg-secondary border rounded-lg p-4">
     
     {p.link && <a href={p.link} target="_blank" rel="noopener noreferrer">
-        <h3 className="text-lg font-semibold">{p.title}</h3>
+        <h3 className="text-xl font-semibold">{p.title}</h3>
 
         {p.image && <img src={p.image} className="w-full h-96 object-cover rounded mt-2"/>}
     </a>}
@@ -40,7 +40,7 @@ return (
         ))}
     </div>
     <div className="mt-3">
-        {p.repo && <a href={p.repo} target="_blank" rel="noopener noreferrer" className="text-sm underline hover:text-blue-600">Source</a>}
+        {p.repo && <a href={p.repo} target="_blank" rel="noopener noreferrer" className="text-lg underline hover:text-blue-600">Source</a>}
     </div>
     </article>
     )
