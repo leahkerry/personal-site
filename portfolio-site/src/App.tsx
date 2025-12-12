@@ -13,7 +13,7 @@ return (
 <Navbar />
 <main className="flex-1">
 <Home />
-<About />
+{/* <About /> */}
 <Software />
 <ArtSoftware />
 <Artwork />

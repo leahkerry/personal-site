@@ -1,3 +1,5 @@
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,5 +7,17 @@
 
 /* small helper styles */
 html, body, #root { height: 100%; }
-body { @apply bg-slate-200 text-slate-800 antialiased; }
+body { @apply font-mono bg-bgcolor text-txtcolor antialiased; }
 .container { @apply max-w-4xl mx-auto px-6; }
+h1 {@apply font-custom text-5xl font-semibold}
+h2 {@apply font-custom text-2xl text-center font-semibold}
+
+
+@font-face {
+    font-family: 'PressStart2P';
+    src: url('/src/assets/fonts/PressStart2P-Regular.ttf')format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+

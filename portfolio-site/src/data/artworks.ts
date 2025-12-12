@@ -5,14 +5,14 @@ export const artworks: Project[] = [
 {
 id: 'fairylanterns',
 title: 'Fairy Lanterns',
-video: '',
+gallery: ['src/assets/artwork/lanterns.JPEG', 'src/assets/artwork/crabclaws2_wpearl.jpg', 'src/assets/artwork/Lanternvideo.mov'],
 description: 'Handmade miniatures using brass, copper, liver of sulfur patina. Lanterns function as earrings or real lanterns.',
 technologies: [],
 },
 {
 id: 'bones',
 title: 'Fantastical Bones',
-video: '',
+gallery: ['src/assets/artwork/Bones_Evidence-40.JPG', 'src/assets/artwork/Bones_Evidence-36.JPG', 'src/assets/artwork/Bones_Evidence-51.JPG'],
 description: 'Resin-printed bones that expand on the idea of rediscovery and fantasy. ',
 technologies: ['Blender','Formlabs Resin Printers'],
 },
