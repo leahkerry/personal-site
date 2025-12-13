@@ -3,9 +3,8 @@
 https://leahkerry.dev/
 
 ### Purpose: create my own website to showcase my art and tech projects
-### Created in: JS/HTML/CSS
+### Created in: REACT / TYPESCRIPT / TAILWIND CSS
 ### Showcases: 
 * 👩‍💻Software projects
-* 🖼️Computer Graphics
-* 🐠Animation
-* 🌲3D Work 
+* 🖼️Art projects made with tech
+* 🌲Artwork 
