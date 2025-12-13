@@ -43,7 +43,7 @@ repo: 'https://github.com/leahkerry/personal-site'
 
 {
 id: 'lantern-club',
-image: '/personal-site/src/assets/software/lantern-thumbnail.png',
+image: './assets/software/lantern-thumbnail.png',
 link: 'https://the-lantern.vercel.app/',
 title: 'The Lantern Club Webapp',
 description: 'Created database for uploading magazine issues using Prisma, MongoDB, and NodeJS. Implemented front end of homepage, about us page, and magazine pages using React and Tailwind CSS',
