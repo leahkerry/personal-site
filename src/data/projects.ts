@@ -24,7 +24,7 @@ repo: 'https://github.com/leahkerry/sudoku'
 // {
 // id: 'minecraft',
 // title: 'Minecraft Shader',
-// image: '/src/assets/software/sudokupage.png',
+// image: './assets/software/sudokupage.png',
 // link: 'https://leahkerry.github.io/sudoku-website/',
 // description: 'Implemented sudoku generation algorithm for different difficulties in C++. Created API for puzzles hosted through Render. Created website using React that calls API.',
 // technologies: ['C++', 'FastAPI', 'Pybind', 'React'],

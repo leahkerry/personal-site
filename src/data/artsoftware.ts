@@ -29,7 +29,7 @@ repo: ''
 {
 id: 'reactivevisuals',
 title: 'Reactive visuals with Ultrasonic sensor',
-video: 'src/assets/artsoftware/ultrasonic_sensor_demo.mov',
+video: './assets/artsoftware/ultrasonic_sensor_demo.mov',
 description: '',
 technologies: ['Arduino', 'P5,js', 'Touchdesigner'],
 repo: ''
