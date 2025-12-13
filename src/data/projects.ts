@@ -34,7 +34,7 @@ repo: 'https://github.com/leahkerry/sudoku'
 {
 id: 'portfolio',
 title: 'Portfolio (this site)',
-description: 'Built with React, TypeScript, & Tailwind; responsive design and deployable to Vercel.',
+description: 'Built with React, TypeScript, & Tailwind.',
 technologies: ['React', 'TypeScript', 'Tailwind'],
 repo: 'https://github.com/leahkerry/personal-site'
 }, 
