@@ -5,7 +5,7 @@ export const projects: Project[] = [
 {
 id: 'raytracer',
 title: 'Recursive Raytracer',
-video: '/src/assets/software/shader_demo.mp4',
+video: './assets/software/shader_demo.mp4',
 description: 'A GLSL + WebGL recursive raytracer. Implements reflections, shadows, and textures.',
 technologies: ['GLSL', 'WebGL', 'JavaScript'],
 repo: 'https://github.com/leahkerry/Recursive-Raytracer'
@@ -14,7 +14,7 @@ repo: 'https://github.com/leahkerry/Recursive-Raytracer'
 {
 id: 'sudoku',
 title: 'Sudoku Generator',
-image: '/personal-site/src/assets/software/sudokupage2.png',
+image: './assets/software/sudokupage2.png',
 link: 'https://leahkerry.github.io/sudoku-website/',
 description: 'Implemented sudoku generation algorithm for different difficulties in C++. Created API for puzzles hosted through Render. Created website using React that calls API.',
 technologies: ['C++', 'FastAPI', 'Pybind', 'React'],
