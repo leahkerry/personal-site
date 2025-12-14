@@ -5,7 +5,7 @@ export const projects: Project[] = [
 {
 id: 'raytracer',
 title: 'Recursive Raytracer',
-video: './assets/software/shader_demo.mp4',
+video: './assets/shader_demo.mp4',
 description: 'A GLSL + WebGL recursive raytracer. Implements reflections, shadows, and textures.',
 technologies: ['GLSL', 'WebGL', 'JavaScript'],
 repo: 'https://github.com/leahkerry/Recursive-Raytracer'
