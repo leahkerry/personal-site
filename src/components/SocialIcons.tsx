@@ -13,7 +13,7 @@ const SocialIcon: React.FC<SocialIconProps> = ({ href, Icon, label }) => (
     target="_blank"
     rel="noopener noreferrer"
     // Apply Tailwind CSS classes for styling, hover effects, and size
-    className="text-txtcolor hover:text-slate-500 transition duration-300 mx-2"
+    className="text-txtcolor hover:text-slate-500 hover:scale-125 transition duration-300 mx-2"
     aria-label={label}
   >
     <Icon className="h-10 w-10" /> {/* Set the icon size */}

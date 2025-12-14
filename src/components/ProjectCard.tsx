@@ -26,12 +26,17 @@ return (
                 src={p.youtube} >
         </iframe>}
     
-    {p.gallery && 
-        <div className="mt-3 text-lg grid grid-flow-col grid-rows-1 items-stretch gap-2">
-            {p.gallery.map(t => (
-            <img src={t} className="h-96 object-cover rounded mt-2"/>
-            ))}
-        </div>}
+    {p.gallery && (
+        <div className="mt-3 text-lg grid grid-cols-1 sm:grid-flow-col sm:grid-rows-1 items-stretch gap-2">
+          {p.gallery.map((t, index) => (
+            <img
+              key={index}
+              src={t}
+              className="w-full h-96 object-cover rounded mt-2"
+            />
+          ))}
+        </div>
+      )}
 
     <p className="mt-2 text-lg">{p.description}</p>
     <div className="mt-3 text-lg flex flex-wrap gap-2">

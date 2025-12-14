@@ -24,7 +24,7 @@ repo: 'https://github.com/leahkerry/sudoku'
 {
 id: 'minecraft',
 title: 'Minecraft Shader',
-gallery: ['./assets/software/minecraft_reflect1.png', '/src/assets/software/minecraft_bloom.png'],
+gallery: ['./assets/software/minecraft_reflect1.png', './assets/software/minecraft_bloom.png'],
 description: 'Designed and programmed a custom shader in glsl shading language for minecraft. Implemented algorithms for light reflection, bloom effects, cartoon outlines, and vertex movement.',
 technologies: ['GLSL'],
 repo: 'https://github.com/leahkerry/Minecraft-Shader'
