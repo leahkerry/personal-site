@@ -24,6 +24,14 @@ description: 'Collection of jewelry inspired by Aliens rediscovering earth. Made
 technologies: [],
 },
 {
+id: 'wormwishes',
+title: 'Worm Wishes - Animation',
+youtube: 'https://www.youtube.com/embed/QYaOi08vy_0?si=ArPgn137PaOzT6vt',
+description: 'Short animation inspired by the question \"Would you still love me if I were a worm?\"... but reversed!',
+technologies: [],
+},
+
+{
 id: 'feastofpearl',
 title: 'Feast of Pearl',
 image: './assets/artwork/spoon2.jpg',
