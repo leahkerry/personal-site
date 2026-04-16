@@ -6,7 +6,7 @@ export const projects: Project[] = [
 id: 'raytracer',
 title: 'Recursive Raytracer',
 video: './assets/shader_demo.mp4',
-description: 'A GLSL + WebGL recursive raytracer. Implements reflections, shadows, and textures.',
+description: 'A GLSL + WebGL recursive raytracer. Implements reflections, shadows, and textures. Designed frontend UI for user interaction.',
 technologies: ['GLSL', 'WebGL', 'JavaScript'],
 repo: 'https://github.com/leahkerry/Recursive-Raytracer'
 },
@@ -21,6 +21,24 @@ technologies: ['C++', 'FastAPI', 'Pybind', 'React'],
 repo: 'https://github.com/leahkerry/sudoku'
 },
 
+{
+id: 'lantern-club',
+image: './assets/software/lantern-thumbnail.png',
+link: 'https://the-lantern.vercel.app/',
+title: 'The Lantern Club Webapp',
+description: 'Created database for uploading magazine issues using Prisma, MongoDB, and NodeJS. Implemented front end of homepage, about us page, and magazine pages using React and Tailwind CSS',
+technologies: ['React', 'TypeScript', 'Tailwind'],
+repo: 'https://github.com/JumboCode/the-lantern'
+}, 
+{
+id: 'native-garden',
+image: './assets/software/native_garden.png',
+link: 'https://gonativegarden.com/',
+title: 'Go Native Garden',
+description: 'Designed and created informational website to educate Pennsylvania locals on native plants.',
+technologies: ['Javascript', 'HTML', 'CSS'],
+repo: 'https://github.com/leahkerry/native-plants'
+}, 
 {
 id: 'minecraft',
 title: 'Minecraft Shader',
@@ -40,14 +58,6 @@ repo: 'https://github.com/leahkerry/personal-site'
 
 
 
-{
-id: 'lantern-club',
-image: './assets/software/lantern-thumbnail.png',
-link: 'https://the-lantern.vercel.app/',
-title: 'The Lantern Club Webapp',
-description: 'Created database for uploading magazine issues using Prisma, MongoDB, and NodeJS. Implemented front end of homepage, about us page, and magazine pages using React and Tailwind CSS',
-technologies: ['React', 'TypeScript', 'Tailwind'],
-repo: 'https://github.com/JumboCode/the-lantern'
-}
+
 
 ]
